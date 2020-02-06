@@ -1,12 +1,12 @@
 $pkg_name="chef-dk"
 $pkg_origin="chef"
-$pkg_version="3.0.36"
+$pkg_version="4.7.73"
 $pkg_upstream_url="https://chef.io/"
 $pkg_license=@("Apache-2.0")
 $pkg_maintainer="The Chef Maintainers <humans@chef.io>"
 $pkg_description="The Chef Developer Kit"
-$pkg_source="https://packages.chef.io/files/stable/chefdk/${pkg_version}/windows/2016/chefdk-${pkg_version}-1-x64.msi"
-$pkg_shasum="f8347d422c7c4db53b4ef056b790f040a578bf27e772f8448077c2905dcdbdbe"
+$pkg_source="https://packages.chef.io/files/stable/chefdk/${pkg_version}/windows/2019/chefdk-${pkg_version}-1-x64.msi"
+$pkg_shasum="8843852999b4b3bd427e5d061611c188e1913b062e7372c747588e5c4d535d34"
 $pkg_build_deps=@("core/lessmsi")
 $pkg_bin_dirs=@(
     "chefdk/bin",
